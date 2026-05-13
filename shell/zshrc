@@ -8,6 +8,6 @@ FPATH=/opt/homebrew/share/zsh/site-functions:$FPATH
 # Load fzf if available
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-#  eval "$(anyenv init -)" # if you use anyenv
+ eval "$(anyenv init -)" # if you use anyenv
 # . /opt/homebrew/opt/asdf/libexec/asdf.sh # if you use asdf
 
