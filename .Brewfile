@@ -6,9 +6,8 @@ tap "homebrew/services" # brew services
 # https://formulae.brew.sh/formula/ インストールしたいパッケージを検索
 # brew
 
-# install depends on which needs
-# brew "asdf"
-# brew "anyenv"
+brew "anyenv"
+brew "mise"
 
 brew 'git'
 brew 'gh'
