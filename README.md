@@ -31,7 +31,7 @@ dotfiles/
 ### 1. リポジトリのクローン
 
 ```bash
-git clone https://github.com/tomitahisaki/dotfiles.git
+git clone https://github.com/HisakeyT/dotfiles.git
 cd dotfiles
 ```
 
