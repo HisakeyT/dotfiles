@@ -13,6 +13,7 @@ ln -sf "$PWD/config/starship.toml" ~/.config/starship.toml
 ln -sf "$PWD/config/wezterm/wezterm.lua" ~/.config/wezterm/wezterm.lua
 ln -sf "$PWD/config/wezterm/keybinds.lua" ~/.config/wezterm/keybinds.lua
 ln -sf "$PWD/.gitconfig" ~/.gitconfig
+ln -sf "$PWD/config/mise/config.toml" ~/.config/mise/config.toml
 
 # install packages via Homebrew
 if command -v brew >/dev/null 2>&1; then
