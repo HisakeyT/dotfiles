@@ -26,6 +26,7 @@ brew 'libyaml'
 
 # for telescope/lazyvim
 brew 'fd'
+brew 'fzf'
 brew 'luarocks'
 brew 'ripgrep'
 
