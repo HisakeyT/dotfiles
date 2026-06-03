@@ -6,6 +6,8 @@ echo "Setting up dotfiles..."
 
 # create directories for wezterm
 mkdir -p ~/.config/wezterm
+# create directories for mise
+mkdir -p ~/.config/mise
 
 # make symbolic links
 ln -sf "$PWD/shell/zshrc" ~/.zshrc
