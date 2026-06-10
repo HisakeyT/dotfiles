@@ -1,9 +1,9 @@
-# https://formulae.brew.sh/formula/ インストールしたいパッケージを検索
+# ============================================================
+# common
+# ============================================================
+
 # brew
-
-brew "anyenv"
 brew "mise"
-
 brew 'git'
 brew 'gh'
 brew 'zstd'
@@ -11,13 +11,9 @@ brew 'lazygit'
 brew 'openssl'
 brew 'neovim'
 brew 'starship'
-# brew 'watchman'
 brew 'zsh-completions'
 brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
-
-# to use psych for rbenv
-# brew 'libyaml'
 
 # for telescope/lazyvim
 brew 'fd'
@@ -28,30 +24,38 @@ brew 'ripgrep'
 # for ruby-lsp in LazyVim
 brew "mysql"
 
-# private needs
-# tap "heroku/brew"
-# brew "golang-migrate"
-# brew "heroku/brew/heroku"
-# brew "postgresql@14"
-
-# https://formulae.brew.sh/cask/ でインストールしたいアプリを検索
-# dev
-# cask 'firefox'
-# cask "google-chrome"
-# cask "docker-desktop"
+# cask
 cask "font-fira-code-nerd-font"
-# cask "iterm2"
 cask "wezterm@nightly"
 cask "visual-studio-code"
-# cask "karabiner-elements"
 cask "raycast"
 cask "rectangle"
 cask "sequel-ace"
+# cask "google-chrome"
+# cask "docker-desktop"
 # cask "postman"
 # cask "slack"
 # cask "zoom"
 
-# private needs
+# ============================================================
+# private
+# ============================================================
+
+# tap
+# tap "heroku/brew"
+
+# brew
+# brew "anyenv"
+# brew 'watchman'
+# brew 'libyaml' # to use psych for rbenv
+# brew "golang-migrate"
+# brew "heroku/brew/heroku"
+# brew "postgresql@14"
+
+# cask
+# cask 'firefox'
+# cask "iterm2"
+# cask "karabiner-elements"
 # cask "notion"
 # cask "spotify"
 # cask "mattermost"
@@ -61,7 +65,7 @@ cask "sequel-ace"
 # cask "1password"
 # cask "xcodes-app"
 
-# VS Code Extensions
+# vscode
 # vscode "alexcvzz.vscode-sqlite"
 # vscode "asvetliakov.vscode-neovim"
 # vscode "biomejs.biome"
