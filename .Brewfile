@@ -1,7 +1,7 @@
 # Homebrew Taps
-tap "heroku/brew"
-tap "homebrew/bundle" # brew bundle
-tap "homebrew/services" # brew services
+# tap "heroku/brew"
+# tap "homebrew/bundle" # brew bundle
+# tap "homebrew/services" # brew services
 
 # https://formulae.brew.sh/formula/ インストールしたいパッケージを検索
 # brew
