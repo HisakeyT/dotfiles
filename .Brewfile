@@ -1,8 +1,3 @@
-# Homebrew Taps
-# tap "heroku/brew"
-# tap "homebrew/bundle" # brew bundle
-# tap "homebrew/services" # brew services
-
 # https://formulae.brew.sh/formula/ インストールしたいパッケージを検索
 # brew
 
@@ -16,13 +11,13 @@ brew 'lazygit'
 brew 'openssl'
 brew 'neovim'
 brew 'starship'
-brew 'watchman'
+# brew 'watchman'
 brew 'zsh-completions'
 brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
 
 # to use psych for rbenv
-brew 'libyaml'
+# brew 'libyaml'
 
 # for telescope/lazyvim
 brew 'fd'
@@ -34,26 +29,27 @@ brew 'ripgrep'
 brew "mysql"
 
 # private needs
+# tap "heroku/brew"
 # brew "golang-migrate"
 # brew "heroku/brew/heroku"
 # brew "postgresql@14"
 
 # https://formulae.brew.sh/cask/ でインストールしたいアプリを検索
 # dev
-cask 'firefox'
-cask "google-chrome"
-cask "docker-desktop"
+# cask 'firefox'
+# cask "google-chrome"
+# cask "docker-desktop"
 cask "font-fira-code-nerd-font"
-cask "iterm2"
+# cask "iterm2"
 cask "wezterm@nightly"
 cask "visual-studio-code"
-cask "karabiner-elements"
+# cask "karabiner-elements"
 cask "raycast"
 cask "rectangle"
 cask "sequel-ace"
-cask "postman"
-cask "slack"
-cask "zoom"
+# cask "postman"
+# cask "slack"
+# cask "zoom"
 
 # private needs
 # cask "notion"
