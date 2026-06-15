@@ -66,15 +66,11 @@ cask "google-japanese-ime"
 # cask "1password"
 # cask "xcodes-app"
 
-# vscode asvetliakov.vscode-neovim
-# vscode donjayamanne.githistory
-# vscode golang.go
-# vscode mhutchie.git-graph
-# vscode misogi.ruby-rubocop
-# vscode ms-python.debugpy
-# vscode ms-python.python
-# vscode ms-python.vscode-pylance
-# vscode ms-python.vscode-python-envs
-# vscode ms-vscode-remote.remote-containers
-# vscode ms-vsliveshare.vsliveshare
-# vscode shopify.ruby-lsp
+# vscode "asvetliakov.vscode-neovim"
+# vscode "golang.go"
+# vscode "shopify.ruby-lsp"
+# vscode "misogi.ruby-rubocop"
+# vscode "esbenp.prettier-vscode"
+# vscode "dbaeumer.vscode-eslint"
+# vscode "mhutchie.git-graph"
+# vscode "ms-vscode-remote.remote-containers"
