@@ -1,0 +1,75 @@
+{
+  "editor.wordWrap": "on",
+  "emmet.variables": {
+    "lang": "ja"
+  },
+  "editor.fontFamily": "Ricty Diminished",
+  "settingsSync.ignoredSettings": [
+    "-emmet.extensionsPath"
+  ],
+  "emmet.triggerExpansionOnTab": true,
+  "editor.fontSize": 16,
+  "editor.guides.bracketPairs": true,
+  "terminal.integrated.confirmOnExit": "always",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "",
+  "terminal.integrated.shellIntegration.enabled": false,
+  "editor.renderWhitespace": "all",
+  "[go]": {
+    "editor.insertSpaces": true
+  },
+  "workbench.layoutControl.enabled": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.colorDecoratorsLimit": 1000,
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "[lua]": {
+    "editor.tabSize": 2
+  },
+  "editor.minimap.enabled": false,
+  "diffEditor.maxComputationTime": 0,
+  "settingsSync.ignoredExtensions": [],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+  },
+  "html.format.contentUnformatted": "",
+  "window.commandCenter": true,
+  "workbench.editor.enablePreview": false,
+  "editor.inlineSuggest.enabled": true,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.startupEditor": "none",
+  "editor.formatOnSaveMode": "file",
+  "ruby.rubocop.onSave": false,
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.db": "default"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "vscode-neovim.compositeKeys": {},
+  "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.nextEditSuggestions.enabled": true
+}
