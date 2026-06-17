@@ -6,6 +6,7 @@
   editor = vim
   quotepath = false
 	excludesfile = ~/.gitignore
+  hooksPath = ~/github/dotfiles/git/hooks
 
 [diff]
   tool = vimdiff
