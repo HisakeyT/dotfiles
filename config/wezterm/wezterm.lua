@@ -5,7 +5,7 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 config.automatically_reload_config = true
-config.color_scheme = "Gruvbox dark"
+config.color_scheme = "GitHub Dark"
 config.char_select_bg_color = "#282A36"
 config.char_select_fg_color = "#F8F8F2"
 config.font = wezterm.font("FiraCode Nerd Font")
