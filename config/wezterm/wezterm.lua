@@ -6,6 +6,8 @@ local config = wezterm.config_builder()
 
 config.automatically_reload_config = true
 config.color_scheme = "Tokyo Night Moon"
+config.char_select_bg_color = "#282A36"
+config.char_select_fg_color = "#F8F8F2"
 config.font = wezterm.font("FiraCode Nerd Font")
 config.font_size = 12.0
 config.use_ime = true
