@@ -13,3 +13,5 @@ FPATH=/opt/homebrew/share/zsh/site-functions:$FPATH
 # eval "$(anyenv init -)"
 eval "$(mise activate zsh)"
 
+# Docker aliases
+alias dc='docker compose'
