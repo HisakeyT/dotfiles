@@ -15,3 +15,5 @@ eval "$(mise activate zsh)"
 
 # Docker aliases
 alias dc='docker compose'
+alias gotest='docker compose exec app go test'
+alias gorun='docker compose exec app go run'
