@@ -9,15 +9,6 @@ return {
             return vim.lsp.rpc.start({ "mise", "exec", "-C", dir, "--", "ruby-lsp" }, dispatchers)
           end,
         },
-        rubocop = {
-          cmd = function(dispatchers, config)
-            local dir = config and config.root_dir or vim.fn.getcwd()
-            local has_gemfile = vim.fn.filereadable(dir .. "/Gemfile") == 1
-            local cmd = has_gemfile and { "mise", "exec", "-C", dir, "--", "bundle", "exec", "rubocop", "--lsp" }
-              or { "mise", "exec", "--", "rubocop", "--lsp" }
-            return vim.lsp.rpc.start(cmd, dispatchers)
-          end,
-        },
       },
     },
   },
