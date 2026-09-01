@@ -5,7 +5,7 @@ readonly CURRENT_HEAD=$2
 readonly CHECKOUT_TYPE=$3
 
 IGNORED=("develop" "master" "main" "staging" "staging2")
-IGNORED_PREFIX=("release" "feedback" "hotfix")
+IGNORED_PREFIX=("release" "feedback" "hotfix" "dev")
 BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
 
 containsElement() {
